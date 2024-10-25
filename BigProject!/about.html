@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmCritics | About</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/1599/1599684.png" type="image/png">
+</head>
+<style>
+    #RT {
+  color: yellow;
+  font-weight: bold;
+}
+
+#search{
+  width: 450px;
+}
+#text {
+  color: #fff;  
+  font-weight: bold;
+}
+
+#text:hover {
+  background-color: white;
+  color: #000;
+  border-radius:10%;
+}
+
+.container-1 {
+  background-color: #FA320A;
+}
+
+
+.ms-8 {
+  margin-left: 22.75rem;
+}
+
+.container-2 {
+  background-color: #FA320A;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.container-3 {
+  background-color: gray;
+  color: #fff;
+}
+
+.back-to-top-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #FA320A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      cursor: pointer;
+    }
+
+</style>
+<body style="background-color: #222222;">
+    <!-- Header -->
+    <header>              
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid container-2 p-3">
+                <a class="navbar-brand filmcritics mb-1" href="filmcritics.html" style="color: #fff;">FilmCritics®</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">            
+                    <form class="d-flex" role="search">
+                        <input id="search" class="form-control me-2 rounded-pill " type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a id="text" class="nav-link p-2 bd-highlight about" href="./about.html">About FilmCritics®</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="text" class="nav-link p-2 bd-highlight" href="./signup.html">SIGNUP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="text" class="nav-link login p-2 bd-highlight" href="./login.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="text" class="nav-link" href="https://www.fandango.com/movies-in-theaters?a=13036">SHOWTIMES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar-nav ms-auto mb-lg-0"></nav>
+            <div class="container-fluid container-3">
+                <div class="d-flex justify-content-start" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item">
+                            <a id="RT" class="nav-link p-2 bd-highlight" href="#">TRENDING ON RT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 bd-highlight" href="https://editorial.rottentomatoes.com/rt-hub/hispanic-heritage/">Hispanic Heritage Month</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 bd-highlight" href="https://editorial.rottentomatoes.com/hub-subpage/horror-season/">Spooky season</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link p-2 bd-highlight" href="https://editorial.rottentomatoes.com/article/movie-re-releases-calendar/">Movie Re-Release Calendar</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link p-2 bd-highlight" href="https://editorial.rottentomatoes.com/article/tv-premiere-dates-2024/">TV Premier Dates</a>
+                        </li>
+
+                        <nav class="navbar-nav me-auto  mb-lg-0">
+                            <div class="d-flex justify-content-end ms-8" id="navbarSupportedContent">
+                                <div class="container-fluid d-flex flex-row-reverse">
+                                    <ul class="navbar-nav d-flex flex-row ms-auto mb-2 mb-lg-0">
+                                        <li class="nav-item"></li>
+                                            <a class="nav-link p-2 bd-highlight" href="https://www.facebook.com/rottentomatoes">
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"></li>
+                                            <a class="nav-link p-2 bd-highlight" href="https://www.instagram.com/rottentomatoes/">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"></li>
+                                            <a class="nav-link p-2 bd-highlight" href="https://www.tiktok.com/@rottentomatoes">
+                                                <i class="fa-brands fa-tiktok"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"></li>
+                                            <a class="nav-link p-2 bd-highlight" href="https://www.youtube.com/user/rottentomatoes">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- body -->
+    <div class="container" style="color: #fff;">
+        <div class="row">
+          <div class="col-md-8 mt-5">
+            <!-- about -->
+            <h3>About FilmCritics®</h3>
+            <p>As the world’s most trusted and recognized source of movie and TV reviews, FilmCritics, also known as a better version of RottenTomatoes, has served as the most reliable home of entertainment recommendations. We offer authentic reactions in a broad range of reviews from professional critics and everyday fans alike in addition to helpful, easily digestible what-to-watch roundups. Not only that, but we help build anticipation and provide fans with access to first look entertainment previews, trailers, behind-the-scenes exclusives, and more, as well as original editorial features, fun and informative video series, and even books and games. If you're an entertainment fan looking for a diverse range of perspectives curated in an easy-to-understand format, we'll help you find what you're in the mood for and open your eyes to new things to enjoy.</p><br>
+
+            <!-- Tomatometer® -->
+             <h5>WHAT IS THE TOMATOMETER®?</h5>
+             <p>Tomatometer scores are based on the collective opinions of hundreds of film and television critics and serve as a trusted measurement of critical entertainment recommendation for millions of fans. The Tomatometer score represents the percentage of professional critic reviews that are positive for a given film or television show. We have recently updated our criteria for the number of reviews it takes for a Tomatometer score to populate.</p><br>
+            
+             <!-- Certified Fresh -->
+            <h5>WHAT IS CERTIFIED FRESH?</h5>
+            <p>Certified fresh score.
+                Certified Fresh status is a special designation awarded to the best-reviewed movies and TV shows. To qualify, movies or TV shows must meet the following requirements:</p>
+                <ul>
+                    <li>A Tomatometer score of 75% or higher, with at least five reviews from Top Critics.</li>
+                    <li>Films in wide release must have a minimum of 80 reviews. This also applies for films expanding from limited to wide release.</li>
+                    <li>Films in limited release must have a minimum of 40 reviews.</li>
+                    <li>Streaming movies must have a minimum of 40 reviews.</li>
+                    <li>Only individual seasons of a TV show are eligible, and each season must have a minimum of 20 reviews.</li>
+                    <li>Theatrical releases that premiere at festivals must have an announced release date.</li>
+                </ul><br>
+             
+            <!-- curation -->
+            <h5>CURATION</h5>
+            <p>FilmCritics has a team of curators whose job is to gather thousands of movie and TV reviews weekly. The team constantly collects movie and TV reviews from Tomatometer-approved critics and publications generating Tomatometer scores. Our curation process considers these reviews, noting if they are Fresh or Rotten, and our curators choose a representative pull-quote. Tomatometer-approved critics can also self-submit their reviews.</p><br>
+            
+            <!-- popcornmeter -->
+            <h5>WHAT IS THE POPCORNMETER?</h5>
+            <p>The Popcornmeter, which captures audience sentiment, is represented by a popcorn bucket and indicates the percentage of fans who have rated a movie or TV show positively. When we can verify users have bought a ticket to a film, the default score shown is composed of “Verified Ratings.” For all other titles, we display an “All” score that includes ratings from people regardless of whether or not we can verify that they have seen the movie. Titles displaying Verified Ratings also have an All score. To view it, simply click on the popcorn bucket and you can toggle between the two.</p><br>
+            <p>We have updated our criteria for the number of ratings it takes for the Popcornmeter to populate a score.</p><br>            
+            
+            
+            <!-- Verified Hot     -->
+            <h5>WHAT IS VERIFIED HOT?</h5>    
+            <p>The Verified Hot status and badge is an elevated designation honoring the highest verified reviewed theatrical films by fans. Verified Hot is composed of Verified Ratings and Reviews from the Popcornmeter score and will be applied to all eligible first run movies released on or after May 2019. To qualify, a movie must meet the following achievement qualifications:</p>
+                <ul>
+                    <li>Have a Verified Audience Score of 90% or higher.</li>
+                    <li>Have a minimum of 500+ Verified Ratings for films in wide release.</li>
+                    <li>Have a minimum of 250+ Verified Ratings for films in limited release.</li>
+                    <li>Repertory titles (such as classic rereleases) are also eligible for the designation.</li>
+                </ul>
+
+            <!-- Community & Critics Code of Conduct -->
+             <h5>COMMUNITY & CRITICS CODE OF CONDUCT</h5>
+             <p>At Rotten Tomatoes, we are always looking to update our policies to try to ensure we maintain a safe and fair community for every movie and TV fan. For our Community Code of Conduct, click <a href="" style="text-decoration: none;">HERE</a>. You can also find our Tomatometer-approved Critics Code of Conduct <a href="" style="text-decoration: none;">HERE</a>.</p>
+        </div>
+          <div class="col-6 col-md-4 mt-5">
+            <h3>Contact us</h3>
+            <p style="margin-bottom: 0;"><strong>Customer Support</strong></p>
+            <p style="margin-top: 0; margin-bottom: 0;">Visit our <a href="" style="text-decoration: none;">FAQs</a> or fill out our <a href="" style="text-decoration: none;">Email Form</a>.</p><br>
+            
+            <p style="margin-bottom: 0;"><strong>Submit feedback & advice</strong></p>
+            <p><a href="" style="text-decoration: none;">Tell us</a> about missing or incorrect movie or TV information.</p><br>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer" class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+    
+                <!-- First column: About Us -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Company Name</h5>
+                    <p>FilmCritics Corporation</p>
+                </div>
+    
+                <!-- Second column: Links -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">More</h5>
+                    <p><a href="#" class="text-white" style="text-decoration: none;">Home</a></p>
+                    <p><a href="./about.html" class="text-white" style="text-decoration: none;">About</a></p>
+                    <p><a href="#" class="text-white" style="text-decoration: none;">Services</a></p>
+                    <p><a href="#" class="text-white" style="text-decoration: none;">Contact</a></p>
+                </div>
+    
+                <!-- Third column: Contact -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+                    <a href="location.html"><i class="fas fa-home mr-3"></i> Ho Chi Minh City, Vietnam</a>
+                    <p><i class="fas fa-envelope mr-3"></i>FilmCritics@example.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> +1234 5678</p>
+                    <p><i class="fas fa-print mr-3"></i> +1234 5678</p>
+                </div>
+    
+                <!-- Fourth column: Social Icons -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                    <a href="#" class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-danger btn-floating m-1" style="background-color: #dd4b39;"><i class="fab fa-google"></i></a>
+                    <a href="#" class="btn btn-info btn-floating m-1" style="background-color: #55acee;"><i class="fab fa-twitter"></i></a>
+                </div>
+    
+            </div>
+    
+            <hr class="mb-4">
+    
+            <!-- Copyright row -->
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>© 2024 Copyright: <a href="#" style="text-decoration: none;"><strong class="text-white">FilmCritics</strong></a></p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <p>Designed by Lam Phong</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+      
+    <!-- Back to top button -->
+  <div class="back-to-top-btn" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up fa-lg" style="color:#fff;"></i>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>      
+</body>
+</html>
